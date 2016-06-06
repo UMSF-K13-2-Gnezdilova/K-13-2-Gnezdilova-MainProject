@@ -16,7 +16,13 @@ public class world {
                 if(x < min) min = x;
         }
         System.out.println("Minimal element: " + min);
-
+        
+        
+        
+        for(int x: q) {
+                if(x > min) min = x;
+        }
+        System.out.println("Max element: " + min);
 	}
 }
 
