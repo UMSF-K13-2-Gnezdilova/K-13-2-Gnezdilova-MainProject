@@ -22,7 +22,7 @@ public class world {
         for(int x: q) {
                 if(x > min) min = x;
         }
-        System.out.println("Max element: " + min);
+        System.out.println("Maximum element: " + min);
 	}
 }
 
